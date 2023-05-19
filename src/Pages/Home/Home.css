@@ -1,0 +1,5 @@
+.Home{height: 100%;
+    display: grid;
+    position: relative;
+    grid-template-rows:12% auto 5% ;
+}

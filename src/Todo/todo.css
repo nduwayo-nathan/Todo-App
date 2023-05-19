@@ -1,0 +1,116 @@
+.todo-main-container {
+    display: flex;
+    background-color: darkgray;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: 4px 4px 4px 4px black;
+    border-radius: 15px;
+    width: 22rem;
+    height: 35rem;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: coral;
+    width: 100%;
+    height: 3rem;
+}
+.header>h3 {
+    position: relative;
+    color: darkblue;
+    font-size: 2rem;
+    
+}
+.buttons {
+    margin: 5px;
+}
+.buttons>button {
+    margin: 1px;
+    background-color: orange;
+    border-radius: 6px;
+    height: 2rem;
+}
+.taskLists {
+    position: relative;
+    width: 97%;
+}
+.taskModifying {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    position: relative;
+    align-items: center;
+    background-color: rgb(75, 196, 196);
+   box-shadow: 4px 6px 7px black;
+    color: rgb(14, 14, 14);
+    border-radius: 10px;
+    margin: 10px;
+    height: 3rem;  
+}
+.taskModifying>.value {
+    position: relative;
+    padding: 5px;
+    width:80%;
+    height: 1.5rem;
+    font-size: 1rem;
+}
+.taskLists>button {
+    border-radius: 0px;
+}
+.edit-delete {
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+   
+    height: 3rem;
+}
+.edit {
+    background-color: green;
+    height: 3rem;
+}
+.delete {
+    height: 3rem;
+    background-color: brown;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.save-cancel {
+    width: 20%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+}
+.save-cancel>button {
+    font-size: 12px;
+    height: 2rem;
+}
+.save{
+    background-color: green;
+    height: 2rem;
+}
+.cancel{
+    height: 2rem;
+    background-color: brown;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Add-task{
+    margin: 4px;
+    border: 5px solid orange;
+    box-shadow: 5px 5px 6px black;
+    width:80%;
+    border-radius: 15px;
+    padding: 5px;
+    height: 1rem;
+    font-size: 1rem;
+}
